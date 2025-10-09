@@ -3,10 +3,6 @@ import requests
 import os
 
 app = Flask(__name__)
-
-TELEGRAM_TOKEN = '8380044313:AAF2M0QEaZsPQHIxn1H3mEDijdCc2_fakAU'
-CHAT_ID = '934519981'
-
 # Главная страница
 @app.route('/')
 def index():
@@ -46,4 +42,5 @@ def mobile():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
 
