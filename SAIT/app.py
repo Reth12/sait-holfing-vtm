@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-CHAT_ID = os.getenv('CHAT_ID'
+CHAT_ID = os.getenv('CHAT_ID')
 # Главная страница
 @app.route('/')
 def index():
@@ -44,6 +44,7 @@ def mobile():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
 
 
 
