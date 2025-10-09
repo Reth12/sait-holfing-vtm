@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0a0a0a 0%, #011022 60%, #011029 100%);
+    color: #fff;
+}
+
+/* Хедер */
+.mobile-header {
+    background: none;
+    color: #c0c0c0;
+    border-bottom: none;
+}
+
+/* Основной контент */
+.mobile-main {
+    padding: 24px 12px;
+    text-align: center;
+    background: none; /* убираем белый фон */
+    color: #c0c0c0;
+}
+.mobile-main h1, .mobile-main h2 {
+    color: #c0c0c0;
+}
+.main-section img {
+    box-shadow: 0 0 30px #00000022;
+}
+
+/* Секции */
+.benefits-section h2,
+.slider-section h2,
+.contacts-section h2,
+.request-info h2 {
+    color: #c0c0c0;
+    font-size: 1.3em;
+    margin-bottom: 16px;
+}
+.benefits-section ul li {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+/* Слайдер */
+.mobile-slider-container {
+    background: none;
+    box-shadow: none;
+}
+.mobile-slider-btn {
+    background: #1a23fe !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    z-index: 2;
+    box-shadow: 0 4px 16px #0002;
+    transition: background 0.2s;
+}
+.mobile-slider-btn:hover {
+    background: #14236e !important;
+}
+.mobile-slider-item {
+    background: #222;
+    color: #c0c0c0;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #0001;
+    margin: 0 8px;
+    padding: 8px;
+}
+.mobile-slider-item div {
+    color: #1a23fe;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* Кнопки */
+.btn, .request-form button, .chat-send {
+    background: #1a237e;
+    color: #c0c0c0;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 12px;
+}
+.btn:hover, .request-form button:hover, .chat-send:hover {
+    background: #14236e;
+}
+
+/* Переключатель заявки */
+.request-switch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    gap: 8px;
+}
+.switch-btn {
+    flex: 1;
+    padding: 10px 0;
+    background: #222;
+    color: #c0c0c0;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-weight: bold;
+}
+.switch-btn.active {
+    background: #1a237e;
+    color: #fff;
+}
+
+/* Футер */
+.mobile-footer {
+    background: #1a237e;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 0.95em;
+    width: 100%;
+    box-shadow: 0 -2px 12px #0001;
+}
+
+/* Формы */
+.rounded-input,
+.country-code,
+.phone-input,
+.request-form input,
+.request-form textarea,
+.request-form select,
+.request-form button,
+.btn {
+    border-radius: 12px !important;
+    box-sizing: border-box;
+}
+
+.request-form input,
+.request-form textarea,
+.request-form select {
+    border: none;
+    padding: 12px;
+    background: #111;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.request-form button,
+.btn {
+    border-radius: 12px !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.request-form .btn,
+.request-form button {
+    margin-top: 10px;
+}
+
+.request-container {
+    overflow: hidden;
+}
+
+/* Адаптация для маленьких экранов */
+@media (max-width: 600px) {
+    .mobile-main h1 {
+        font-size: 1.2em;
+    }
+    .mobile-logo {
+        font-size: 1.5em;
+    }
+    .mobile-nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .mobile-nav a {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+    .mobile-main {
+        padding: 20px 10px;
+    }
+    .mobile-footer {
+        font-size: 0.85em;
+    }
+}

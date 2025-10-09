@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Кейсы — Холдинг ВТМ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mobile.css" media="(max-width: 800px)">
+    <style>
+        .cases-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px #0001;
+            padding: 32px 20px;
+        }
+        .case-card {
+            background: #f7f7fa;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px #0001;
+            margin-bottom: 28px;
+            padding: 24px 18px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 24px;
+        }
+        .case-img {
+            flex: 0 0 160px;
+            max-width: 160px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px #0002;
+            background: #eee;
+        }
+        .case-info {
+            flex: 1 1 220px;
+        }
+        .case-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #1a237e;
+        }
+        .case-desc {
+            color: #222;
+            margin-bottom: 10px;
+        }
+        .case-tags {
+            font-size: 0.95em;
+            color: #888;
+        }
+        @media (max-width: 800px) {
+            .cases-container {
+                background: #222;
+                color: #fff;
+                box-shadow: none;
+                padding: 18px 6px;
+                border-radius: 0;
+            }
+            .case-card {
+                background: #111;
+                color: #c0c0c0;
+                box-shadow: none;
+                border-radius: 10px;
+                padding: 16px 8px;
+                flex-direction: column;
+                gap: 12px;
+            }
+            .case-img {
+                max-width: 100%;
+                border-radius: 10px;
+            }
+            .case-title {
+                color: #25D366;
+            }
+            .case-tags {
+                color: #b0b8c1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="mobile-header">
+        <div class="mobile-logo">Холдинг ВТМ</div>
+        <nav class="mobile-nav">
+            <a href="/">Главная</a>
+            <a href="#cases">Кейсы</a>
+        </nav>
+    </header>
+    <main class="mobile-main">
+        <section class="cases-container" id="cases">
+            <h1 style="text-align:center; margin-bottom:32px;">Наши кейсы</h1>
+            
+            <div class="case-card">
+                <img src="/img/kase_aster.jpg" alt="aster_auto" class="case-img">
+                <div class="case-info">
+                    <div class="case-title">Корпоративная одежда для aster auto</div>
+                    <div class="case-desc">
+                        Разработали стильную линейку худи и футболок с фирменной символикой. Вся продукция выполнена из премиального хлопка, нанесение логотипа — шелкография.
+                    </div>
+                    <div class="case-tags">#одежда #брендинг #auto</div>
+                </div>
+            </div>
+
+
+
+            <div class="case-card">
+                <img src="/img/Kase_cocacola.jpg" alt="coca_cola" class="case-img">
+                <div class="case-info">
+                    <div class="case-title">одежда для Coca-Cola</div>
+                    <div class="case-desc">
+                        Разработали и произвели одежду для работников компании: поло, кофты, футболки. Все изделия — с яркой фирменной айдентикой.
+                    </div>
+                    <div class="case-tags">#coca cola #кофты #футболки</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mobile-footer">
+        <p>© Холдинг ВТМ, 2025</p>
+    </footer>
+</body>
+</html>

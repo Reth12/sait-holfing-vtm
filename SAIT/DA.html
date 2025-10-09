@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Холдинг ВТМ —</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/logo.jpg" type="image/x-icon">
+    <script>
+    alert(window.innerWidth);
+    if (window.innerWidth <= 800) {
+        window.location.href = "/mobile.html";
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="img/logo.jpg" alt="Логотип" style="height: 48px; margin-right: 16px;">
+            <span style="font-size: 1.5em; font-weight: bold;">Holding VTM</span>
+        </div>
+        <nav>
+            <a href="/">Главная</a>
+            <a href="/2page.html">Вакансии</a>
+            <a href="#">Услуги</a>
+            <a href="#catalog">Каталог</a>
+            <a href="/kase.html">Кейсы</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#">Как сделать заказ</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+        <a href="#request" class="btn">ОСТАВИТЬ ЗАЯВКУ</a>
+    </header>
+    <div class="main">
+        <div class="main-text">
+            <h1>Создаем<br>корпоративный мерч</h1>
+            <p>Изготовим вещь с любым принтом для вашего бизнеса.<br>От идеи до производства и доставки.</p>
+            <a href="#request" class="btn">СДЕЛАТЬ РАСЧЕТ</a>
+        </div>
+        <div class="main-img">
+            <img src="img/merch-example.jpg" alt="Корпоративный мерч">
+        </div>
+    </div>
+    <!-- Вторая страница/секция -->
+    <section class="about">
+        <h2>Мы создаем мерч, который помогает реализовать скрытый потенциал бренда и решает бизнес-задачи:</h2>
+        <div class="about-blocks">
+            <div>
+                <span class="about-num">01</span>
+                <p>Позиционирование и узнаваемость бренда на рынке</p>
+            </div>
+            <div>
+                <span class="about-num">02</span>
+                <p>Усиление корпоративной культуры среди сотрудников компании</p>
+            </div>
+            <div>
+                <span class="about-num">03</span>
+                <p>Повышение лояльности клиентов и партнеров</p>
+            </div>
+        </div>
+    </section>
+    <!-- Третья страница/секция -->
+    <section class="services">
+        <h2>Наши услуги</h2>
+        <div class="services-blocks">
+            <div>
+                <span class="service-icon"></span>
+                <h3>Дизайн</h3>
+                <p>Наш графический дизайнер разработает любой принт по вашим пожеланиям.</p>
+                <a href="#">Подробнее</a>
+            </div>
+            <div>
+                <span class="service-icon"></span>
+                <h3>Пошив</h3>
+                <p>Собственное производство позволяет реализовывать проекты любого объема в сжатые сроки.</p>
+                <a href="#">Подробнее</a>
+            </div>
+            <div>
+                <span class="service-icon"></span>
+                <h3>Печать</h3>
+                <p>Прямая печать методом шелкографии позволяет перенести на изделие любую вашу идею.</p>
+                <a href="#">Подробнее</a>
+            </div>
+            <div>
+                <span class="service-icon"></span>
+                <h3>Вышивка</h3>
+                <p>Машинная вышивка позволяет добиться высокой прочности и износостойкости изображения.</p>
+                <a href="#">Подробнее</a>
+            </div>
+            <div>
+                <span class="service-icon"></span>
+                <h3>Сменные стикеры</h3>
+                <p>Сменные стикеры на липучках кастомизируют мерч: сделают стандартную корпоративную одежду более индивидуальной.</p>
+                <a href="#">Подробнее</a>
+            </div>
+            <div>
+                <span class="service-icon"></span>
+                <h3>Доставка</h3>
+                <p>Изготовим и доставим корпоративный мерч в любую точку мира. Даже если вы где-то между Курасао и островами Кука.</p>
+                <a href="#">Подробнее</a>
+            </div>
+        </div>
+    </section>
+    <!-- Четвертая страница/секция -->
+    <section class="merch-slider" id="catalog">
+        <h2>База для корпоративного мерча</h2>
+        <p>Мы ценим ваше время, поэтому уже разработали стильные и удобные лекала, продумав каждую деталь. Остается только определиться с дизайном, и можно запускать мерч в производство.</p>
+        <div class="slider-container">
+            <button class="slider-btn prev">&#60;</button>
+            <div class="slider-track">
+                <a href="#" class="slider-item">
+                    <img src="img/sweatshirt.jpg" alt="Свитшот">
+                    <div class="slider-title">Свитшот</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/zip-sweatshirt.jpg" alt="Свитшот на молнии">
+                    <div class="slider-title">Свитшот на молнии</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/shatni.jpg" alt="Штаны">
+                    <div class="slider-title">Штаны</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/shorty.jpg" alt="Шорты">
+                    <div class="slider-title">Шорты</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/futboilky.jpg" alt="Футболка">
+                    <div class="slider-title">Футболка</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/polo.png" alt="Поло">
+                    <div class="slider-title">Поло</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/hudi.jpg" alt="Худи">
+                    <div class="slider-title">Худи</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/kombine.jpg" alt="Комбинезон">
+                    <div class="slider-title">Комбинезон</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/jacket.jpg" alt="Куртка">
+                    <div class="slider-title">Куртка</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+                <a href="#" class="slider-item">
+                    <img src="img/overalls.jpg" alt="Комбинезон">
+                    <div class="slider-title">Спецодежда</div>
+                    <div class="slider-link">подробнее</div>
+                </a>
+            </div>
+            <button class="slider-btn next">&#62;</button>
+        </div>
+    </section>
+    <!-- Пятая страница/секция -->
+    <section class="clients">
+        <h2>Наши клиенты</h2>
+        <div class="clients-logos">
+            <div><img src="img/coca.png" alt="Coca Cola"></div>
+            <div><img src="img/aster.jpg" alt="Астер авто"></div>
+            <div><img src="img/mary kay.png" alt="Mary key"></div>
+            <div><img src="img/polanka.jpg" alt="polanka"></div>
+        </div>
+    </section>
+    <!-- Шестая страница/секция -->
+    <section class="reviews" id="reviews">
+        <h2>Отзывы</h2>
+        <div class="reviews-slider">
+            <button class="reviews-btn prev">&#8592;</button>
+            <div class="reviews-track">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-name">Ольга Никитина</div>
+                            <div class="review-company">ООО «CocaColacompany»</div>
+                        </div>
+                        <img src="img/coca.png" alt="CocaColacompany" class="review-logo">
+                    </div>
+                    <div class="review-stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="review-score">5/5</span>
+                    </div>
+                    <div class="review-text">
+                        Заказывали мерч с логотипом и надписью на спине, сделали очень быстро и качественно, отправили быстро в Актау, всегда на связи, вносят необходимые корректировки, если нужны. Добрые, понимающие. Советую!
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-name">Сергей Анохин</div>
+                            <div class="review-company">Тоо «polyanka»</div>
+                        </div>
+                        <img src="img/polanka.jpg" alt="polyanka" class="review-logo">
+                    </div>
+                    <div class="review-stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="review-score">5/5</span>
+                    </div>
+                    <div class="review-text">
+                        Сделали очень оперативно, хотя сроки были всего пару недель. И даже на день раньше привезли. Качество хорошее. Спасибо!
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-name">Айтмагамбетова Ботагоз </div>
+                            <div class="review-company">ООО «Aster auto»</div>
+                        </div>
+                        <img src="img/aster.jpg" alt="Aster auto" class="review-logo">
+                    </div>
+                    <div class="review-stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="review-score">5/5</span>
+                    </div>
+                    <div class="review-text">
+                        Огромная благодарность  за качественную одежду для нашей организации. Отдельное спасибо менеджеру Елене, профессионалу своего дела, очень внимательная, всегда на связи, ответит на любой вопрос. Качество изделий и печати на высоте.
+                    </div>
+                </div>
+            </div>
+            <button class="reviews-btn next">&#8594;</button>
+        </div>
+    </section>
+    <!-- Седьмая страница/секция -->
+    <section class="advantages">
+        <h2>Наши преимущества</h2>
+        <div class="advantages-blocks">
+            <div>
+                <span class="adv-icon"></span>
+                <h3>Собственное производство</h3>
+                <p>Изготавливаем одежду на собственном производстве, оснащенном современным швейным оборудованием.</p>
+            </div>
+            <div>
+                <span class="adv-icon"></span>
+                <h3>Образцы</h3>
+                <p>Мы изготавливаем и высылаем образец изделия перед запуском в производство.</p>
+            </div>
+            <div>
+                <span class="adv-icon"></span>
+                <h3>Широкая линейка цветов</h3>
+                <p>Подберем необходимый цвет трикотажного полотна исходя из ваших потребностей.</p>
+            </div>
+            <div>
+                <span class="adv-icon"></span>
+                <h3>Качество</h3>
+                <p>Мы сотрудничаем с проверенными поставщиками тканей. Контролируем весь процесс от идеи до производства мерча.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Восьмая страница/секция -->
+    <section class="request" id="request">
+        <div class="request-container">
+            <div class="request-info">
+                <h2>Оставьте заявку</h2>
+                <p>Мы свяжемся с вами в ближайшее время, чтобы обсудить все детали, рассчитать стоимость и сроки.</p>
+            </div>
+            <form class="request-form" id="requestForm">
+                <input type="text" name="name" placeholder="Имя" required class="rounded-input">
+                <div class="phone-row">
+                    <select name="country" class="country-code" required>
+                        <option value="+7">+7 (Россия)</option>
+                        <option value="+7kz">+7 (Казахстан)</option>
+                        <option value="+375">+375 (Беларусь)</option>
+                        <option value="+380">+380 (Украина)</option>
+                        <option value="+993">+993 (Туркменистан)</option>
+                        <option value="+998">+998 (Узбекистан)</option>
+                        <option value="+996">+996 (Киргизия)</option>
+                        <option value="+994">+994 (Азербайджан)</option>
+                        <option value="+995">+995 (Грузия)</option>
+                        <option value="+373">+373 (Молдова)</option>
+                        <option value="+48">+48 (Польша)</option>
+                    </select>
+                    <input type="tel" name="phone" placeholder="000 000-00-00" required class="rounded-input phone-input" pattern="[0-9\s\-]{10,}">
+                </div>
+                <input type="email" name="email" placeholder="Email" required class="rounded-input">
+                <textarea name="details" placeholder="Детали по заказу (тип изделия, тираж)" rows="3" class="rounded-input"></textarea>
+                <div class="request-policy">
+                    Нажимая на кнопку, вы даете <b>согласие на обработку</b> персональных данных и <a href="/politock.html">соглашаетесь</a> с политикой конфиденциальности.
+                </div>
+                <button type="submit" class="btn">ОСТАВИТЬ ЗАЯВКУ</button>
+            </form>
+        </div>
+    </section>
+    <!-- FAQ секция -->
+    <section class="faq">
+        <h2>FAQ</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <button class="faq-question">Как сделать заказ <span class="faq-plus">+</span></button>
+                <div class="faq-answer">Вы можете оставить заявку через форму на сайте или связаться с нами по телефону. Мы обсудим детали, подготовим дизайн и рассчитаем стоимость.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Стоимость и сроки изготовления <span class="faq-plus">+</span></button>
+                <div class="faq-answer">Стоимость зависит от тиража, сложности дизайна и выбранных материалов. Сроки — от 7 дней, точные сроки уточняются индивидуально.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Минимальный объем заказа <span class="faq-plus">+</span></button>
+                <div class="faq-answer">Минимальный тираж — 10 изделий. Для корпоративных клиентов возможны индивидуальные условия.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Доставка <span class="faq-plus">+</span></button>
+                <div class="faq-answer">Доставляем по всей России и миру. Стоимость доставки рассчитывается отдельно.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Какие ткани используются в пошиве <span class="faq-plus">+</span></button>
+                <div class="faq-answer">Используем качественный трикотаж, хлопок, полиэстер и другие материалы, подходящие для корпоративного мерча.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="footer-content">
+            <div class="footer-links">
+                <div>
+                    <div>Услуги</div>
+                    <div>Каталог</div>
+                    <div>Как сделать заказ</div>
+                    <div>Кейсы</div>
+                </div>
+                <div>
+                    <div>FAQ</div>
+                    <div>Блог</div>
+                    <div>Контакты</div>
+                </div>
+                <div>
+                    <a href="2page.html">Вакансии</a>
+                    <div>Сотрудничество</div>
+                    <a href="sotr.html">Партнерская программа</a>
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <div class="footer-title">Контакты:</div>
+                <div>+7 701 805 00 64</div>
+                <div>hvtm-1@yandex.ru</div>
+                <div class="footer-social">
+                    <a href="https://t.me/trikotajalmaty" aria-label="tg"><img src="img/tg.png" alt="tg" height="24"></a>
+                    <a href="https://www.instagram.com/spezo.kz?igsh=N2R3bm5sMGU2d2J6" aria-label="Instagram"><img src="img/inst.jpg.png" alt="Instagram" height="24"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="/politock.html">Политика конфиденциальности</a>
+        </div>
+    </footer>
+    <script src="/js/mainpage.js"></script>
+</body>
+</html>

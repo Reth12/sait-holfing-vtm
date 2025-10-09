@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вакансии — Холдинг ВТМ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .vacancies-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 32px;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px #0001;
+        }
+        .vacancies-section h2 {
+            font-size: 2em;
+            margin-bottom: 24px;
+            text-align: center;
+            color: #14236e;
+        }
+        .vacancy-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: center;
+        }
+        .vacancy-card {
+            background: #f7f7f7;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px #0001;
+            padding: 24px 20px;
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .vacancy-img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            background: #e0e7ff;
+        }
+        .vacancy-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 12px;
+            color: #14236e;
+        }
+        .vacancy-desc {
+            font-size: 1em;
+            margin-bottom: 16px;
+            color: #14236e;
+        }
+        .vacancy-apply {
+            margin-top: auto;
+            background: #1a23fe;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 18px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .vacancy-apply:hover {
+            background: #111;
+        }
+    </style>
+</head>
+<body>
+    <section class="vacancies-section">
+        <a href="/" style="display:inline-block;margin-bottom:18px;color:#1a237e;text-decoration:underline;font-weight:bold;">← На главную</a>
+        <h2>Вакансии</h2>
+        <div class="vacancy-list">
+            <div class="vacancy-card">
+                <img src="/img/vacancy-manager.jpg" alt="Менеджер по продажам" class="vacancy-img">
+                <div class="vacancy-title">Менеджер по продажам</div>
+                <div class="vacancy-desc">
+                    Активные продажи корпоративного мерча, работа с клиентами, ведение переговоров, оформление заказов.
+                </div>
+                <a href="mailto:hvtm-1@yandex.ru?subject=Отклик на вакансию Менеджер по продажам" class="vacancy-apply">Откликнуться</a>
+            </div>
+            <div class="vacancy-card">
+                <img src="/img/vacancy-shveya.jpg" alt="Швея" class="vacancy-img">
+                <div class="vacancy-title">Швея</div>
+                <div class="vacancy-desc">
+                    Пошив изделий по готовым лекалам, работа с современным оборудованием, контроль качества.
+                </div>
+                <a href="mailto:hvtm-1@yandex.ru?subject=Отклик на вакансию Швея" class="vacancy-apply">Откликнуться</a>
+            </div>
+            <div class="vacancy-card">
+                <img src="/img/vacancy-designer.jpg" alt="Дизайнер" class="vacancy-img">
+                <div class="vacancy-title">Дизайнер</div>
+                <div class="vacancy-desc">
+                    Разработка принтов и макетов для корпоративного мерча, взаимодействие с клиентами и производством.
+                </div>
+                <a href="mailto:hvtm-1@yandex.ru?subject=Отклик на вакансию Дизайнер" class="vacancy-apply">Откликнуться</a>
+            </div>
+            <div class="vacancy-card">
+                <img src="/img/vacancy-technologist.jpg" alt="Технолог" class="vacancy-img">
+                <div class="vacancy-title">Технолог</div>
+                <div class="vacancy-desc">
+                    Контроль производственного процесса, внедрение новых технологий, оптимизация работы цеха.
+                </div>
+                <a href="mailto:hvtm-1@yandex.ru?subject=Отклик на вакансию Технолог" class="vacancy-apply">Откликнуться</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
